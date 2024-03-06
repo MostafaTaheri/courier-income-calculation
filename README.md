@@ -1,5 +1,5 @@
 # courier-income-calculation
-Courier Income Calculation System
+Various factors affect the income of couriers. In this task, we want to identify and implement the relevant models and then calculate the salaries of couriers in 2 time scales.
 
 ## Installation
 
