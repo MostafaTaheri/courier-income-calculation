@@ -11,6 +11,11 @@ To install using ```pip```:
 pip install -r requirements/requirements.txt
 ```
 
+## Run Test
+```bash
+python manage.py test income_calculation.tests.daily
+```
+
 ## Calculating the daily salary of couriers
 We want to add a new table to the system entities that shows the salary of a courier on a certain date. The rows of this table are actually the aggregated information of the previous tables for each driver on each day. The rows of this table must be referable at any time. That is, with the first activity of each courier every day, the corresponding row should be created and the value of this row should be updated as soon as each of the items mentioned above is created.
 
