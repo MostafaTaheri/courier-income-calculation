@@ -32,7 +32,6 @@ def get_weekly_earning(from_date, to_date):
     result = get_all_weekly_earning(start_dates=start_dates)
 
     for item in result:
-
         response.append(WeeklyEarningResponse(courier=CourierResponse(id=item.courier.id, user=UserResponse(
             id=item.courier.user.id, email=item.courier.user.email)), amount=item.amount, start_date=item.start_date).dict())
 
