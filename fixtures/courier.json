@@ -1,0 +1,9 @@
+[
+    {
+        "model": "income_calculation.courier",
+        "pk": 1,
+        "fields": {
+            "user": 1
+        }
+    }
+]
