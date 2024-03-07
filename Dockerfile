@@ -11,10 +11,6 @@ ENV PYTHONPATH "${PYTHONPATH}:/courier"
 
 COPY . .
 
-COPY deployment/entrypoint.sh /entrypoint.sh
-
-RUN chmod +x /entrypoint.sh
-
 
 RUN pip install --upgrade pip
 RUN pip install -r requirements/requirements.txt
